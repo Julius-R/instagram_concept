@@ -8,20 +8,14 @@ import PersonIcon from "@mui/icons-material/Person";
 export default function Icons() {
 	return (
 		<Box sx={{ display: { xs: "none", md: "flex" } }}>
-			<IconButton
-				size="large"
-				aria-label="show 4 new mails"
-				color="inherit">
+			<IconButton aria-label="show 4 new mails" color="inherit">
 				<Badge badgeContent={4} color="error">
-					<FavoriteIcon />
+					<FavoriteIcon sx={{ fontSize: 30 }} />
 				</Badge>
 			</IconButton>
-			<IconButton
-				size="large"
-				aria-label="show 17 new notifications"
-				color="inherit">
+			<IconButton aria-label="show 17 new notifications" color="inherit">
 				<Badge badgeContent={17} color="error">
-					<PersonIcon />
+					<PersonIcon sx={{ fontSize: 40 }} />
 				</Badge>
 			</IconButton>
 		</Box>
