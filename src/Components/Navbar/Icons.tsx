@@ -14,9 +14,7 @@ export default function Icons() {
 				</Badge>
 			</IconButton>
 			<IconButton aria-label="show 17 new notifications" color="inherit">
-				<Badge badgeContent={17} color="error">
-					<PersonIcon sx={{ fontSize: 40 }} />
-				</Badge>
+				<PersonIcon sx={{ fontSize: 38 }} />
 			</IconButton>
 		</Box>
 	);

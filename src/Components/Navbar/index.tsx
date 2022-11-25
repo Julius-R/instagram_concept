@@ -14,11 +14,20 @@ export default function Navbar() {
 				flexGrow: 1
 			}}>
 			<AppBar position="static">
-				<Toolbar sx={{ backgroundColor: "#fff", color: "#333" }}>
+				<Toolbar
+					sx={{
+						backgroundColor: "#fff",
+						color: "#333",
+						p: {
+							sm: ".35rem",
+							lg: ".75rem 2rem"
+						}
+					}}>
 					<Typography
-						variant="h6"
+						variant="h4"
 						noWrap
-						component="div"
+						component="p"
+						fontWeight={300}
 						sx={{
 							display: {
 								xs: "none",
@@ -28,8 +37,8 @@ export default function Navbar() {
 						}}>
 						Instagram
 					</Typography>
-					<SearchBar />
 					<Box sx={{ flexGrow: 1 }} />
+					<SearchBar />
 					<Icons />
 				</Toolbar>
 			</AppBar>
