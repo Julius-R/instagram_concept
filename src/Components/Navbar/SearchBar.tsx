@@ -13,11 +13,11 @@ export default function SearchBar() {
 				width: {
 					sm: "25%"
 				},
-				marginRight: "2rem"
+				marginRight: "1rem"
 			}}
 			variant="outlined">
 			<OutlinedInput
-				sx={{ height: "2.5rem" }}
+				sx={{ height: "2rem" }}
 				id="outlined-adornment-password"
 				type="text"
 				endAdornment={
